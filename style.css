@@ -1,0 +1,10 @@
+body {
+    background-color: coral;
+}
+
+header {
+    background-color: pink;
+    border: 5rem;
+    display: flex;
+    text-align: center;
+}
