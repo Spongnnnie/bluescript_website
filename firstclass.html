@@ -5,6 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>First Practical Class at Bluescript</title>
 </head>
+<style>
+    table,th,td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+
+    tr:nth-child(even) {
+        background-color: #d6eeee;
+    }
+
+    th,td {
+        text-align: center;
+    }
+
+</style>
 <body>
 
     <header>THIS IS NOT YOUR REGULAR WEBSITE</header>
@@ -41,9 +56,64 @@
             <label for="Password">Password:</label>
             <input type="text" placeholder="*******"><br><br>
             <label for="Email">Email:</label>
-            <input type="text" placeholder="joezoe@gmail.com">
+            <input type="text" placeholder="joezoe@gmail.com"><br><br>
+            <label for="Gender">Gender:</label><br><br>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="male"><br><br>
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="male"><br><br>
+            <label for="pnts">Prefare not to say</label>
+            <input type="radio" id="pnts" name="male"><br><br>
+            <label for="Where">Where did you hear us from:</label><br><br>
+            <label for="fb">Facebook</label>
+            <input type="checkbox" id="fb"><br><br>
+            <label for="x">Twitter</label>
+            <input type="checkbox" id="x"><br><br>
+            <label for="ig">Instagram</label>
+            <input type="checkbox" id="ig"><br><br>
+            <label for="Country">Country</label>
+            <select name="Country" id="">
+                <option value="">Nigeria</option>
+                <option value="">Congo</option>
+                <option value="">South Africa</option>
+            </select>
         </form>
     </fieldset>
+
+        <table style="width: 60%;">
+            <caption>Scores of Batch B&C WebDev</caption>
+            <tr>
+                <th>S/N</th>
+                <th>Name</th>
+                <th>Score</th>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>Mummy</td>
+                <td>99</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Ileri</td>
+                <td>70</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Jumoke</td>
+                <td>23</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>Muiz</td>
+                <td>12</td>
+            </tr>
+        </table>
+
+    
 
     <footer>Copywrite &copy; by Bluescript</footer>
     </body>
