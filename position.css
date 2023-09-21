@@ -1,0 +1,43 @@
+.ileri {
+    background-color: aquamarine;
+    position: fixed;
+    padding-left: 3%;
+    padding-right: 3%;
+    border: 1px solid blue;
+    font-family: fantasy;
+    line-height: 1.5;
+    color: blue;
+    border-radius: 8px;
+    /* top: 20px; */
+    margin-left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.malik {
+    background-color: peachpuff;
+    position: relative;
+    top: 50px;
+}
+
+.parent {
+    position: absolute;
+    top: 20px;
+    background-color: blueviolet;
+}
+
+.div1 {
+    position: relative;
+}
+
+.sticky {
+    background-color: plum;
+    position: sticky;
+    top: 0;
+    color: purple;
+    margin-top: 0;
+}
+
+/* .div4 {
+    position: sticky;
+} */
