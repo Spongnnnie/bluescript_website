@@ -1,0 +1,460 @@
+.container {
+    background-color: white;
+    display: grid;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px;
+    border: 50px solid #81522e;
+    padding: auto;
+    margin: auto;
+    width: 700px;
+    height: 10%;
+    outline-offset: -5px;
+}
+
+.item1 {
+    background-color: black;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.item2 {
+    background-color: #A86C3D;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.item3 {
+    background-color: black;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.item4 {
+    background-color: #A86C3D;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+.item5 {
+    background-color: black;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 5;
+    grid-column-end: 6;
+}
+
+.item6 {
+    background-color: #A86C3D;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 6;
+    grid-column-end: 7;
+}
+
+.item7 {
+    background-color: black;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 7;
+    grid-column-end: 8;
+}
+
+ .item8 {
+    background-color: #A86C3D;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 8;
+    grid-column-end: 9;
+} 
+
+.item10 {
+    background-color: #A86C3D;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.item20 {
+    background-color: black;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.item30 {
+    background-color: #A86C3D;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.item40 {
+    background-color: black;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+.item50 {
+    background-color: #A86C3D;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 5;
+    grid-column-end: 6;
+}
+
+.item60 {
+    background-color: black;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 6;
+    grid-column-end: 7;
+}
+
+.item70 {
+    background-color: #A86C3D;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 7;
+    grid-column-end: 8;
+}
+
+ .item80 {
+    background-color: black;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 8;
+    grid-column-end: 9;
+} 
+
+.item100 {
+    background-color: black;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.item200 {
+    background-color: #A86C3D;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.item300 {
+    background-color: black;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.item400 {
+    background-color: #A86C3D;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+.item500 {
+    background-color: black;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 5;
+    grid-column-end: 6;
+}
+
+.item600 {
+    background-color: #A86C3D;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 6;
+    grid-column-end: 7;
+}
+
+.item700 {
+    background-color: black;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 7;
+    grid-column-end: 8;
+}
+
+.item800 {
+    background-color: black;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 8;
+    grid-column-end: 9;
+} 
+
+.item101 {
+    background-color: #A86C3D;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.item201 {
+    background-color: black;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.item301 {
+    background-color: #A86C3D;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.item401 {
+    background-color: black;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+.item501 {
+    background-color: #A86C3D;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 5;
+    grid-column-end: 6;
+}
+
+.item601 {
+    background-color: black;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 6;
+    grid-column-end: 7;
+}
+
+.item701 {
+    background-color: #A86C3D;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 7;
+    grid-column-end: 8;
+}
+
+.item801 {
+    background-color: black;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 8;
+    grid-column-end: 9;
+} 
+
+.item102 {
+    background-color: black;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.item202 {
+    background-color: #A86C3D;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.item302 {
+    background-color: black;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.item402 {
+    background-color: #A86C3D;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+.item502 {
+    background-color: black;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 5;
+    grid-column-end: 6;
+}
+
+.item602 {
+    background-color: #A86C3D;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 6;
+    grid-column-end: 7;
+}
+
+.item702 {
+    background-color: black;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 7;
+    grid-column-end: 8;
+}
+
+.item802 {
+    background-color: black;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 8;
+    grid-column-end: 9;
+} 
+
+.item103 {
+    background-color: #A86C3D;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.item203 {
+    background-color: black;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.item303 {
+    background-color: #A86C3D;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.item403 {
+    background-color: black;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+.item503 {
+    background-color: #A86C3D;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    grid-column-start: 5;
+    grid-column-end: 6;
+}
+
+.item603 {
+    background-color: black;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    grid-column-start: 6;
+    grid-column-end: 7;
+}
+
+.item703 {
+    background-color: #A86C3D;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    grid-column-start: 7;
+    grid-column-end: 8;
+}
+
+.item803 {
+    background-color: black;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    grid-column-start: 8;
+    grid-column-end: 9;
+} 
+
+.item104 {
+    background-color: black;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.item204 {
+    background-color: #A86C3D;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.item304 {
+    background-color: black;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.item404 {
+    background-color: #A86C3D;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+.item504 {
+    background-color: black;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    grid-column-start: 5;
+    grid-column-end: 6;
+}
+
+.item604 {
+    background-color: #A86C3D;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    grid-column-start: 6;
+    grid-column-end: 7;
+}
+
+.item704 {
+    background-color: black;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    grid-column-start: 7;
+    grid-column-end: 8;
+}
+
+.item804 {
+    background-color: black;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    grid-column-start: 8;
+    grid-column-end: 9;
+} 
